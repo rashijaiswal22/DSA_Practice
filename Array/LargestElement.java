@@ -1,7 +1,8 @@
 package Array;
-import java.util.*;
 
-public class SmallestElement {
+import java.util.Scanner;
+
+public class LargestElement {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter size = ");
@@ -12,13 +13,13 @@ public class SmallestElement {
             arr[i] = sc.nextInt();
 
         }
-        int min = arr[0];
+        int max = arr[0];
         for(int i =0;i < arr.length;i++){
-            if(arr[i] < min){
-                min = arr[i];
+            if(arr[i] > max){
+                max = arr[i];
             }
         }
-        System.out.println("Minimum element = "+min);
+        System.out.println("Largest element = "+max);
         sc.close();
     }
     
