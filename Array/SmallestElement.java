@@ -8,6 +8,7 @@ public class SmallestElement {
         int size = sc.nextInt();
         if(size < 2) { return;}
         int arr[] = new int[size];
+        System.out.println("Enter elements of array");
         for(int i =0;i < size;i++){
             arr[i] = sc.nextInt();
 
