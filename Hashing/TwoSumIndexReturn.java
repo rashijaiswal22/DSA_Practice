@@ -13,7 +13,7 @@ public class TwoSumIndexReturn {
             }
             map.put(arr[i],i);
         }
-        return new int[]{-1,-1};
+        return new int[]{};
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -28,7 +28,13 @@ public class TwoSumIndexReturn {
         System.out.println("Enter target = ");
         int tar = sc.nextInt();
         int[] a= twoSumIn(arr, tar);
-        System.out.println("New = "+a);
+        if(a.length == 2){
+            System.out.println("Indecs are = [ "+ a[0] + " , " +a[1]+ "]");
+            System.out.println("Numbers are = [ "+arr[0] + " and " + arr[a[1]]);
+        }
+        else{
+            System.out.println("nothing found");
+        }
         sc.close();
     }
     
