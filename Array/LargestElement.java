@@ -12,7 +12,6 @@ public class LargestElement {
         System.out.println("Enter elements of array");
         for(int i =0;i < size;i++){
             arr[i] = sc.nextInt();
-
         }
         int max = arr[0];
         for(int i =0;i < arr.length;i++){
