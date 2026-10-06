@@ -15,10 +15,11 @@ public class Gcd {
                 gcd =i;
             }
         }
-        System.out.println("GCD = "+gcd);
+        System.out.println("GCD/HCF = "+gcd);
         sc.close();
 
-        
+
+    
     }
     
 }
