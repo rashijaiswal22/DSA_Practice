@@ -17,6 +17,7 @@ public class FactorialRec {
         System.out.println("Ans = "+ans);
         sc.close();
         
+
     }
     
 }
