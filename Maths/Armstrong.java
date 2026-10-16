@@ -21,13 +21,17 @@ public class Armstrong {
             s = s+(int)Math.pow(a, c);
         }
         if(s == n){
-            System.out.println("Armstrong");
+            System.out.println("It is Armstrong Number");
         }
         else{
-            System.out.println("Not");
+            System.out.println("It is Not Armstrong Number");
         }
         sc.close();
 
     }
     
 }
+
+
+
+
