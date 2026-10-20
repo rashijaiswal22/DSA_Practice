@@ -25,10 +25,12 @@ public class MaxSubArray {
               arr[i] = sc.nextInt();
         }
         int ans = subarrayMax(arr);
-        System.out.println("Ans = "+ans);
+        System.out.println("Answer = "+ans);
         sc.close();
     }
     
 }
+
+
 
 
