@@ -39,8 +39,7 @@ public class Sort012 {
             System.out.println(arr[i]+" ");
         }
         sc.close();
-    }
-    
+    }    
 }
 
 

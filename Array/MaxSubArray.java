@@ -1,14 +1,15 @@
 package Array;
 
 import java.util.*;
+// KADANE'S ALGORITHM
 
 public class MaxSubArray {
     static int subarrayMax(int arr[]){
         int ans = arr[0];
-        int maxEnd = arr[0];
+        int maxSum = arr[0];
         for(int i =1;i < arr.length;i++){
-            maxEnd = Math.max(maxEnd+arr[i], arr[i]);
-            ans = Math.max(ans, maxEnd);
+            maxSum = Math.max(maxSum+arr[i], arr[i]);
+            ans = Math.max(ans, maxSum);
 
         }
         return ans;
