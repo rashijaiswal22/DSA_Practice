@@ -13,6 +13,7 @@ public class PalindromeCheckArray {public static void main(String[] args) {
         }
         int left =0, right=arr.length-1;
         boolean isPlaindrome = true;
+        
         while(left < right){
             if(arr[left]!= arr[right]){
                 isPlaindrome=false;

@@ -1,7 +1,7 @@
 package Array;
 
 import java.util.*;
-
+// DUTCH NATIONAL FLAG ALGORITHM
 public class Sort012 {
     static void sort012(int[] arr){
         int left = 0, mid =0, right=arr.length -1;

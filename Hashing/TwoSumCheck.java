@@ -2,6 +2,7 @@ package Hashing;
 
 import java.util.*;
 // TC = O(n), negative & duplicate handled
+// set doesnot allow duplicate
 public class TwoSumCheck {
     static boolean isTwoSum(int arr[], int target){
         HashSet<Integer> set = new HashSet<>();
