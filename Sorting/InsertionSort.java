@@ -1,7 +1,7 @@
 package Sorting;
 
 import java.util.Scanner;
-
+// TC = O(nn), SC=> O(1)         STABLE
 public class InsertionSort {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
