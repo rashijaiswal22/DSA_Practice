@@ -31,7 +31,7 @@ public class MoveZeroeEnd {
     }
         sc.close();
         
-    }
-
-    
+    }    
 }
+
+
