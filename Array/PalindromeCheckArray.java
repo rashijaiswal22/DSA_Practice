@@ -37,3 +37,5 @@ public class PalindromeCheckArray {public static void main(String[] args) {
 
 
 
+
+
