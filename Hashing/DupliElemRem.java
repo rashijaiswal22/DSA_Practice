@@ -14,6 +14,7 @@ public class DupliElemRem {
             System.out.println(arr[i]+ " ");
         }
 
-    }
-    
+    }    
 }
+
+
