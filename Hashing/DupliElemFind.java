@@ -10,9 +10,12 @@ public class DupliElemFind {
         for (int num : arr) {
             if (!set.add(num)) {
                 System.out.println(num);
-    }
-}
-        
+            }
+        } 
+        System.out.println("After =" );
+        for (int i =0;i < arr.length;i++){
+            System.out.print(arr[i]+" ");
+        }     
 
 
     }
