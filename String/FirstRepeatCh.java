@@ -21,7 +21,8 @@ public class FirstRepeatCh {
         }
         System.out.println("Not found");
 
-        
-    }
+        }
     
 }
+
+
